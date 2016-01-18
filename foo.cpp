@@ -9,5 +9,6 @@ int main() {
   std::cout << "sizeof(int, long, long long): ";
   std::cout << sizeof(int) << " ";
   std::cout << sizeof(long) << " ";
+  std::cout << "sale je kralj" << std::endl;
   std::cout << sizeof(long long) << std::endl;
 }
