@@ -10,7 +10,7 @@ int main() {
   std::cout << sizeof(int) << " ";
   std::cout << sizeof(long) << " ";
   std::cout << "sale je kralj" << std::endl;
-  std::cout << "pavle je car" << std::endl;
+  std::cout << "pavle je car!!" << std::endl;
   std::cout << sizeof(long long) << std::endl;
   // Kick off travis.
 }
