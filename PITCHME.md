@@ -1,5 +1,5 @@
 # Recurrent Neural Networks
-
+---
 <!---
 ## Math rendering
 
@@ -28,7 +28,7 @@
   * Protein secondary structure prediction
 * Sequence labeling vs. pattern classification
   * Correlations in input data and output data ![importance of context](context.png)
-
+---
 ## Problem types
 
 * Pattern classification
@@ -50,21 +50,21 @@
 
   ![temporal classification](temporal_classification.png) -> Text
   * Unsegmented labels
-
+---
 ## Unfolding RNN
 
 * Unfolding network along input sequence
 * No recurrent connections
 
   ![unfolding](unfolded_rnn.png)
-
+---
 ## Recurrent Neural Network (RNN)
 
 * MLP maps input vector to output vector
 * Recurrent connections allow ‘memory’ of previous inputs
 * RNN maps entire history of previous inputs to output vector
   ![rnn](rnn.png)
-
+---
 ## Forward pass
 
 * Almost the same as MLP, except inputs come from the hidden layer as well
@@ -80,7 +80,7 @@
     ![b_h^t](https://latex.codecogs.com/svg.latex?b_h%5Et%20%3D%20%5Ctheta_h%28a_h%5Et%29)
 
   ![forward pass](forward.png)
-
+---
 ## Backward pass
 
 * Backpropagation through time (BPTT)
